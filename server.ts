@@ -5,7 +5,7 @@ const VERSION = process.env.APP_VERSION || 'dev';
 
 http.createServer((req, res) => {
     if (req.url === '/healthz') {
-        res.end('ok');
+        res.end('okkk');
         return;
     }
     res.end(`hello! version=${VERSION}`);
